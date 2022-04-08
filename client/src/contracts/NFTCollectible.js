@@ -1,5 +1,5 @@
 module.exports = {
-  address: "0xC8cbDe94d91791d7Fd2282c04C021271449eFc4D",
+  address: "0x29df67fF4A0FB82E903aF4535d3CE1707EC6E827",
   abi: [
     {
       inputs: [],
@@ -282,6 +282,19 @@ module.exports = {
           internalType: "address",
           name: "",
           type: "address",
+        },
+      ],
+      stateMutability: "view",
+      type: "function",
+    },
+    {
+      inputs: [],
+      name: "getTotalMinted",
+      outputs: [
+        {
+          internalType: "uint256",
+          name: "",
+          type: "uint256",
         },
       ],
       stateMutability: "view",
